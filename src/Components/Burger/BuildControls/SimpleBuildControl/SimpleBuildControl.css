@@ -1,0 +1,36 @@
+.SimpleBuildControl {
+  display: flex;
+  margin: 5%;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.Button {
+  width: 150px;
+  padding: 10px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 2px solid #e74c3c;
+  color: #e74c3c;
+  border-radius: 0.6em;
+  font-size: 16px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  display: block;
+  margin: 2px 2px;
+  font-weight: bold;
+}
+
+.Button:hover {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  color: #fff;
+  outline: 0;
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.text{
+  width: 100px;
+  margin: auto;
+  font-size: 20px;
+}
